@@ -24,7 +24,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=${{ secrets.PROJECT_KEY }}
-            -Dsonar.organization=${{ secrets.ORGANIZATION_KEY }}
+            -Dsonar.projectKey=Harshit-devops-projects_code-analysis
+            -Dsonar.organization=harshit-devops-projects
             -Dsonar.verbose=true
           projectBaseDir: .
